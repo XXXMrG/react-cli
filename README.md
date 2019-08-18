@@ -9,12 +9,15 @@
 
 使用 CRA + react-app-rewired 作为脚手架
 采用业界认可的 Redux + Redux-Saga 数据流架构 高度可配置的架构，脱离阿里 dva 舒适圈，让你不仅用的舒服，更重要的是理解你在做什么，背后的原理。
-而且在一个团队里永远记住：约定大于配置。
+
+在团队里永远记住：约定大于配置。
 
 ## Features
 
 CRA 自带的模块
+
 Your environment will have everything you need to build a modern single-page React app:
+
 * React, JSX, ES6, TypeScript and Flow syntax support.
 * Language extras beyond ES6 like the object spread operator.
 * Autoprefixed CSS, so you don’t need-webkit-or other prefixes.
@@ -28,12 +31,14 @@ The tradeoff is that**these tools are preconfigured to work in a specific way**.
 
 
 ## dependencies
+
 * react-router-dom （React-Router v4）
 * redux
 * redux-saga
 * axios
 
 ## devDependencies
+
 * eslint
 * react-app-rewired （扩展 CRA）
 * eslint-plugin-react
