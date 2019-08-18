@@ -90,13 +90,11 @@ The tradeoff is that**these tools are preconfigured to work in a specific way**.
 │   │   └── index.js
 │   ├── assets                  => 公用静态文件
 │   │   └── index.html
-│   ├── components              => 全局通用组件 如 error 等
+│   ├── components              => 全局通用组件 如 error 等。⚠️仅将可以全局复用的组件放在这里，route 独享的组件直接放入 route 下面
 │   │   └── index.js
 │   ├── index.css
 │   ├── index.js                => 入口文件
-│   ├── layouts                 => 大的布局部分 控制整体布局风格
-│   │   └── index.jsx
-│   ├── pages                   => 按照路由区分的 page 包含其内部组件
+│   ├── routers                 => 按照路由区分的 page 包含其内部组件
 │   │   └── index.js
 │   ├── sagas                   => saga 部分 建议按照业务进一步划分
 │   │   └── index.js
