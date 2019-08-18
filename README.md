@@ -48,6 +48,8 @@ The tradeoff is that**these tools are preconfigured to work in a specific way**.
 * babel-eslint
 * webpack-bundle-analyzer
 * react-app-rewire-webpack-bundle-analyzer
+* redux-devtools-extension
+
 
 ## use in antd
 
