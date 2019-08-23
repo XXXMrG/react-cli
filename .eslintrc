@@ -10,7 +10,7 @@
   "env": { "es6": true, "browser": true, "node": true },
   "plugins": ["prettier"],
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
     "no-unused-vars": "warn",
     "prettier/prettier": "error"
   },

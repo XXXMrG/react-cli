@@ -1,12 +1,12 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import "./index.css"
-import App from "../src/routes"
-import { Provider } from "react-redux"
-import store from "../src/store"
-import * as serviceWorker from "./serviceWorker"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from '../src/routes'
+import { Provider } from 'react-redux'
+import store from '../src/store'
+import * as serviceWorker from './serviceWorker'
 
-const rootElement = document.getElementById("root")
+const rootElement = document.getElementById('root')
 // eslint-disable-next-line no-undef
 ReactDOM.render(
   <Provider store={store}>
